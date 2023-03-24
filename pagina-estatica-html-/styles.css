@@ -1,0 +1,746 @@
+/*nueva fuente*/
+
+* {
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media (max-width: 700px){
+    .textoverde
+   
+     {
+        font-size: 0.65rem;
+    }
+
+    #textoverde0, 
+    #textoverde1,
+    #textoverde2,
+    #textoverde3,
+    #textoverde4,
+    #textoverde5,
+    #textoverde6,
+    #textoverde7,
+    #textoverde8,
+    #textoverde9,
+    #textoverde10,
+    .texto{
+        font-size: 0.5rem;
+    }
+}
+
+
+/*cuerpo*/
+
+body {
+    background-color: #040404;
+
+}
+
+/*barra de navegacion*/
+
+nav {
+    background-color: #040404;
+}
+
+/*estilo iconos redes sociales*/
+#social {
+    float: right;
+    display: inline;
+}
+
+.redes {
+    border-style: solid;
+    border-color: #040404;
+    border-radius: 1.6rem;
+}
+
+#titulo {
+    font-family: 'Press Start 2P', cursive;
+    color: #04ac04;
+    text-decoration: none;
+}
+
+#titulo:hover {
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 0.3rem #FFF, 0 0 0.6rem #FFF,
+        0 0 0.9rem #FFF, 0 0 1.3rem #49ff18, 0 0 1.875rem #49FF18,
+        0 0 3rem #49FF18, 0 0 3.438rem #49FF18, 0 0 5rem #49ff18;
+}
+
+/*texto CURRICULUM*/
+#portfolio,
+#port {
+    font-size: 1.375rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 0.3rem #FFF, 0 0 0.6rem #FFF,
+        0 0 0.9rem #FFF, 0 0 1.3rem #49ff18, 0 0 1.875rem #49FF18,
+        0 0 3rem #49FF18, 0 0 3.438rem #49FF18, 0 0 5rem #49ff18;
+}
+
+/*imagenes de los enlaces de redes sociales*/
+#logueate,
+#enlace1,
+#enlace2,
+#enlace3,
+#enlace4,
+#enlace5,
+#enlace6,
+#enlace7 {
+    overflow: hidden;
+}
+
+/*hover de las imagenes de los enlaces de redes sociales*/
+
+
+#enlace1:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace2:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace3:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace4:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace5:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace6:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+#enlace7:hover {
+    transform: scale(1.6);
+    filter: brightness(1.2);
+}
+
+/*nombre principal*/
+#nombre {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.6rem;
+    color: #04ac04;
+    margin-top: -7.188rem;
+}
+
+#nombre:hover {
+    color: #FFFFFF;
+    background: #040404;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+        0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18,
+        0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+/*texto ANALISTA PROGRAMADOR UNIVERSITARIO, FULL STACK DEVELOPER JR*/
+h3 {
+    color: #04ac04;
+}
+
+/*banner*/
+img {
+    width: 100%;
+    position: relative;
+
+}
+
+/*hover banner*/
+#login1:hover {
+    filter: invert();
+}
+
+/*foto de perfil*/
+#perfil {
+    width: 50%;
+    top: -7.563rem;
+}
+
+/* hover foto perfil*/
+#perfil:hover {
+    filter: sepia(60%);
+}
+
+/*divisor similar a menu vintage*/
+#divisor1 {
+    background-color: #04ac04;
+
+}
+
+/*divisor final similar a opciones de teclas FUNCTION vintage*/
+#divisor2 {
+    border-style: solid;
+    border-color: #04ac04;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.6rem;
+    color: #04ac04;
+    margin-bottom: 1.875rem;
+    padding-left: 1.875rem;
+
+}
+
+/*hover del anterior divisor*/
+#divisor2:hover {
+    background-color: #FFFFFF;
+    cursor: progress;
+}
+
+/*encabezado del div similar a free pascal*/
+#encabezado,
+#encabezado5 {
+    background-color: #051681;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+#encabezado2 {
+    color: #FFFFFF;
+}
+
+#encabezado3,
+#encabezado6 {
+    background-color: #bebdb8;
+}
+
+#encabezado4,
+#encabezado7 {
+    font-size: 0.9rem;
+}
+
+.capital {
+    color: #974847;
+}
+
+.capital2 {
+    color: #362d22;
+}
+
+.white {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+}
+
+.yellow {
+    color: #bfbf47;
+    font-size: 0.9rem;
+
+}
+
+.azul {
+    color: #051681;
+    font-size: 0.9rem;
+}
+
+.gris {
+    color: #bebdb8;
+    font-size: 0.9rem;
+}
+
+/*divisores de porcentaje circular*/
+#divisor3,
+#divisor4,
+#divisor5 {
+    background-color: #04ac04;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 3.75rem;
+    display: block;
+    
+}
+
+
+
+/*parrafo de los divisores*/
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: #040404;
+    font-size: 1.3rem;
+}
+
+
+/*linea de separacion*/
+hr {
+    color: #04ac04;
+
+}
+
+/*--estiloc del arbol de carpetas--*/
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.container2 {
+    margin-top: 6rem;
+    top: 30%;
+    left: 50%;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9rem;
+    margin: 1.5rem;
+    border: 1.2rem solid palegreen;
+    box-shadow: inset 0 0 7px grey;
+    border-left-color: palegreen;
+    border-top-color: chartreuse;
+    border-right-color: darkgreen;
+    border-bottom-color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.ui-widgets:nth-child(2) {
+    border-top-color: chartreuse;
+    border-right-color: white;
+    border-left-color: palegreen;
+    border-bottom-color: white;
+}
+
+.ui-widgets .ui-values {
+    top: 3rem;
+    position: relative;
+    left: 0.6rem;
+    right: 0;
+    font-weight: 700;
+    font-size: 1.0rem;
+    color: #04ac04;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ui-widgets .ui-labels {
+    left: 0;
+    bottom: -2.25rem;
+    text-shadow: 0 0 4px grey;
+    color: #04ac04;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    width: 100%;
+    font-size: 0.6rem;
+    padding-top: 1.3rem;
+}
+
+.contenedor-arbol,
+.contenedor-arbol ul,
+.contenedor-arbol li {
+    position: relative;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.0rem;
+    color: #04ac04;
+    padding-left: -3.0rem;
+}
+
+.contenedor-arbol ul {
+    list-style: none;
+}
+
+.contenedor-arbol li::before,
+.contenedor-arbol li::after {
+    content: "";
+    position: absolute;
+    left: -0.8rem;
+}
+
+.contenedor-arbol li::before {
+    border-top: 2px solid green;
+    top: 0.563rem;
+    width: 0.5rem;
+    height: 0;
+}
+
+.contenedor-arbol li::after {
+    border-left: 0.13rem solid brown;
+    height: 100%;
+    width: 0rem;
+    top: 0.13rem;
+}
+
+.contenedor-arbol ul>li:last-child::after {
+    height: 0.5rem;
+}
+
+
+
+h1 {
+    padding-top: 1.0rem;
+    text-align: center;
+}
+
+.maquina-escribir {
+    background: #04ac04;
+    position: relative;
+}
+
+.maquina-escribir::after {
+    content: "";
+    border-left: 0.19rem solid #04ac04;
+    background: #04ac04;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 2s infinite alternate steps(14);
+}
+
+@keyframes maquinaescribir {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+/*estilos de barra de porcentaje de lenguaje*/
+#progress {
+    background: #333;
+    border-radius: 0.813rem;
+    height: 3rem;
+    width: 19rem;
+    padding: 0.188rem;
+}
+
+#progress1 {
+    background: #333;
+    border-radius: 0.813rem;
+    height: 3rem;
+    width: 19rem;
+    padding: 0.188rem;
+}
+
+#progress2 {
+    background: #333;
+    border-radius: 0.813rem;
+    height: 3rem;
+    width: 19rem;
+    padding: 0.188rem;
+}
+
+#progress:after {
+    content: '';
+    display: block;
+    background: #04ac04;
+    width: 50%;
+    height: 100%;
+    border-radius: 0.563rem;
+}
+
+#progress1:after {
+    content: '';
+    display: block;
+    background: #04ac04;
+    width: 70%;
+    height: 100%;
+    border-radius: 0.563rem;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: #04ac04;
+    width: 80%;
+    height: 100%;
+    border-radius: 0.563rem;
+}
+
+
+/*--estilo porcentaje de idiomas-----*/
+
+#eng {
+    color: #04ac04;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+}
+
+/*estilo de arte ASCII*/
+pre {
+    color: #dd9d20;
+    font-size: 1.6rem;
+}
+
+#monitor {
+    border-style: solid;
+    border-color: #dd9d20;
+    margin-bottom: 3rem;
+}
+
+#monitor2 {
+    color: #dd9d20;
+}
+
+.icon {
+    color: #dd9d20;
+}
+
+/*estilo de imagenes de diplomas*/
+
+.hoverbox {
+    cursor: default;
+    list-style: none;
+}
+
+.hoverbox a {
+    cursor: default;
+}
+
+.hoverbox a .preview {
+    display: none;
+}
+
+.hoverbox a:hover .preview {
+    display: block;
+    position: absolute;
+    top: -2.063rem;
+    left: -2.813rem;
+    z-index: 1;
+}
+
+.hoverbox img {
+    background: #fff;
+    border-color: #aaa #ccc #ddd #bbb;
+    border-style: solid;
+    border-width: 0.06rem;
+    color: inherit;
+    padding: 0.13rem;
+    vertical-align: top;
+    width: 6rem;
+    height: 4.688rem;
+}
+
+.hoverbox li {
+    background: #eee;
+    border-color: #ddd #bbb #aaa #ccc;
+    border-style: solid;
+    border-width: 0.06rem;
+    color: inherit;
+    display: inline;
+    float: left;
+    margin: 0.19rem;
+    padding: 0.3rem;
+    position: relative;
+}
+
+.hoverbox .preview {
+    border-color: #040404;
+    width: 18.75rem;
+    height: 15.625rem;
+}
+
+#portfolio2 {
+    font-size: 2.625rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFFFF;
+    margin-left: 0.6rem;
+    background: #232323;
+    text-shadow: 0 0 0.3rem #FFF, 0 0 0.6rem #FFF,
+        0 0 0.9rem #FFF, 0 0 1.3rem #49ff18, 0 0 1.875rem #49FF18,
+        0 0 3rem #49FF18, 0 0 3.438rem #49FF18, 0 0 5rem #49ff18;
+}
+
+/**cargando*/
+:root {
+
+    --point-color: #dd9d20;
+    --size: 0.3rem;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 100000;
+}
+
+.loader__element {
+    border-radius: 100%;
+    border: var(--size) solid var(--point-color);
+    margin: calc(var(--size)*2);
+}
+
+.loader__element:nth-child(1) {
+    animation: preloader .6s ease-in-out alternate infinite;
+}
+
+.loader__element:nth-child(2) {
+    animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+    animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+
+@keyframes preloader {
+    100% {
+        transform: scale(2);
+    }
+}
+
+
+/**spinner*/
+
+
+#html-spinner {
+    width: 3rem;
+    height: 3rem;
+    border: 0.3rem solid #49FF18;
+    border-top: 0.3rem solid white;
+    border-radius: 50%;
+}
+
+#html-spinner,
+#svg-spinner {
+    -webkit-transition-property: -webkit-transform;
+    /* -webkit-transition-duration: 1.2s; */
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+#containerfooter {
+    width: 90%;
+    max-width: 43.75rem;
+    margin: 1em auto;
+    position: relative;
+}
+
+/* posicionamiento del spinner */
+
+#html-spinner,
+#svg-spinner {
+    position: absolute;
+    top: 5rem;
+    margin-left: -1.5rem;
+}
+
+#html-spinner {
+    left: 25%;
+}
+
+#svg-spinner {
+    left: 75%;
+}
+
+#html-para,
+#svg-para {
+    position: absolute;
+    top: 6rem;
+    width: 40%;
+    padding: 5%;
+    text-align: center;
+}
+
+#svg-para {
+    left: 50%;
+}
+
+/*arte ascii*/
+#ascii3 {
+    font-size: 0.5rem;
+    padding-left: -10.0rem;
+}
+
+/*proyectos*/
+
+#proyectos1,
+#proyectos2,
+#proyectos3,
+#proyectos4,
+#proyectos5,
+#proyectos6 {
+    background-color: #04ac04;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+}
+
+/* letra ascii*/
+#letraproy {
+    font-size: 0.3rem;
+}
+
+/*letra footer nombre*/
+
+#port {
+    font-size: 1.1rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 0.3rem #FFF, 0 0 0.6rem #FFF,
+        0 0 0.9rem #FFF, 0 0 1.3rem #49ff18, 0 0 1.875rem #49FF18,
+        0 0 3rem #49FF18, 0 0 3.438rem #49FF18, 0 0 5rem #49ff18;
+}
+
+/* modo oscuro*/
+.oscuro{ 
+    background-color: #FFFFFF; 
+}
+ 
